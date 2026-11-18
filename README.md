@@ -25,7 +25,7 @@ mask_text("Women casual white printed cotton t-shirt round neck slim fit short s
 ```
 ## Running the notebook
 
-1. Obtain the images from the original public dataset and place them in a folder named `images_final/`.
+1. Download the images from the Kaggle dataset "Fashion Product Images and Text Dataset" (https://www.kaggle.com/datasets/nirmalsankalana/fashion-product-text-images-dataset; derived from Param Aggarwal's Fashion Product Images Dataset) and place them in a folder named `images_final/`.
 2. Set `DATA_DIR` in the first cells to the folder containing the CSV files and `images_final/`.
 3. Models: ConvNeXt-Tiny (`timm`, `convnext_tiny.in12k_ft_in1k`) and DeBERTa-v3 Small with scalar gated fusion.
 
