@@ -20,10 +20,9 @@ Only `category` is a native field of the source dataset. The other twelve attrib
 
 ```python
 from masking import mask_text
-mask_text("Women casual white printed cotton t-shirt round neck slim fit short sleeve", "T-Shirt")
+mask_text("Women casual white printed cotton t-shirt round neck slim fit short sleeve")
 # -> "[GENDER] [OCCASION] [COLOR] [PATTERN] [MATERIAL] t-shirt [NECK] [FIT] [SLEEVE]"
 ```
-
 ## Running the notebook
 
 1. Obtain the images from the original public dataset and place them in a folder named `images_final/`.
@@ -32,5 +31,5 @@ mask_text("Women casual white printed cotton t-shirt round neck slim fit short s
 
 ## Notes
 
-- Only the data-preparation cells were re-executed for this release. The ablation cells were not re-run for it.
+- Reported results were produced with the original training run. The released notebook is a cleaned version of that code; only its data-preparation cells were re-executed for this release.
 - Images are not included in this repository.
